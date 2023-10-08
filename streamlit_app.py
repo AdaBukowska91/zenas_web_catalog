@@ -1,4 +1,4 @@
 import streamlit
 import snowflake.connector
 
-streamlit.title('Clothing)
+streamlit.title('Clothing')
