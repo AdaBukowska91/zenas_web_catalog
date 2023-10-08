@@ -12,9 +12,6 @@ my_data_row = my_cur.fetchone()
 streamlit.text("Hello from Snowflake:")
 streamlit.text(my_data_row)
 
-# put the dafta into a dataframe
-df = pandas.DataFrame(my_catalog)
-
 # temp write the dataframe to the page so I Can see what I am working with
 # streamlit.write(df)
 # put the first column into a list
