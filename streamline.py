@@ -16,7 +16,6 @@ streamlit.text(my_data_row)
 # streamlit.write(df)
 # put the first column into a list
 
-color_list = df[0].values.tolist()
 
 # print(color_list)
 # Let's put a pick list here so they can pick the color
